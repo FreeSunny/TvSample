@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="@style/Theme.Leanback">
+        <!--整个列表距离顶部的距离</item>-->
+        <!--<item name="browseRowsMarginStart">@dimen/gap_20_dp</item>-->
+        <item name="browsePaddingTop">0dp</item>
+
+        <item name="browsePaddingStart">0dp</item>
+        <item name="browsePaddingEnd">0dp</item>
+        <!--第一行距离顶部的距离</item>-->
+        <item name="browseRowsMarginTop">0dp</item>
+        <item name="browseRowsMarginStart">@dimen/gap_20_dp</item>
+
+        <item name="imageCardViewStyle">@style/ImageCardViewStyle</item>
+        <item name="imageCardViewImageStyle">@style/Widget.Leanback.ImageCardView.ImageStyle</item>
+        <item name="imageCardViewTitleStyle">@style/ImageCardViewTitleStyle</item>
+        <item name="imageCardViewContentStyle">@style/ImageCardViewContentStyle</item>
+        <item name="imageCardViewInfoAreaStyle">@style/ImageCardViewInfoAreaStyle</item>
+        <item name="overlayDimMaskColor">@color/transparent</item>
+        <item name="overlayDimActiveLevel">@fraction/lb_view_active_level</item>
+        <item name="overlayDimDimmedLevel">30%</item>
+
+        <item name="itemsVerticalGridStyle">@style/ItemsVerticalGridStyle</item>
+    </style>
+
+    <style name="ItemsVerticalGridStyle" parent="@style/Widget.Leanback.GridItems.VerticalGridView">
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:paddingStart">?attr/browsePaddingStart</item>
+        <item name="android:paddingEnd">?attr/browsePaddingEnd</item>
+        <item name="android:paddingBottom">@dimen/lb_vertical_grid_padding_bottom</item>
+        <item name="android:paddingTop">?attr/browseRowsMarginTop</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="horizontalMargin">@dimen/gap_12_dp</item>
+        <item name="verticalMargin">@dimen/gap_12_dp</item>
+        <item name="focusOutFront">true</item>
+    </style>
+
+    <style name="ImageCardViewInfoAreaStyle" parent="@style/Widget.Leanback.ImageCardView.InfoAreaStyle">
+        <item name="android:background">@null</item>
+    </style>
+
+    <style name="ImageCardViewStyle" parent="@style/Widget.Leanback.ImageCardViewStyle">
+        <item name="cardBackground">@color/white_60_transparent</item>
+    </style>
+
+    <style name="ImageCardViewTitleStyle" parent="@style/Widget.Leanback.ImageCardView.TitleStyle">
+        <item name="android:layout_marginBottom">@dimen/lb_basic_card_info_text_margin</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textAppearance">@style/TextAppearanceTitle</item>
+    </style>
+
+    <style name="TextAppearanceTitle" parent="TextAppearance.Leanback.ImageCardView.Title">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/text_size_16</item>
+    </style>
+
+    <style name="ImageCardViewContentStyle" parent="@style/Widget.Leanback.ImageCardView.ContentStyle">
+        <item name="android:layout_alignParentStart">false</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textAppearance">@style/TextAppearanceContent</item>
+    </style>
+
+    <style name="TextAppearanceContent" parent="@style/TextAppearance.Leanback.ImageCardView.Content">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/text_size_12</item>
+    </style>
+</resources>

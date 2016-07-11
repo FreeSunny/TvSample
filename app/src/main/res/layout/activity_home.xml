@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/global_bg"
+    android:orientation="vertical"
+    android:paddingLeft="42dp"
+    android:paddingRight="42dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/gap_86_dp"
+        android:clickable="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:drawableLeft="@drawable/tv_logo"
+            android:drawablePadding="@dimen/gap_8_dp"
+            android:gravity="center"
+            android:text="@string/itv_name"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_20"/>
+
+        <TextView
+            android:id="@+id/settings_tab"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/gap_45_dp"
+            android:background="@drawable/navigation_tab_bar_selector"
+            android:focusable="true"
+            android:gravity="center"
+            android:text="@string/setting"
+            android:textColor="@color/navigation_text_selector"
+            android:textSize="@dimen/text_size_20"/>
+
+        <TextView
+            android:id="@+id/contact_tab"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="@dimen/gap_45_dp"
+            android:layout_toLeftOf="@id/settings_tab"
+            android:background="@drawable/navigation_tab_bar_selector"
+            android:focusable="true"
+            android:gravity="center"
+            android:text="@string/contact"
+            android:textColor="@color/navigation_text_selector"
+            android:textSize="@dimen/text_size_20"/>
+
+        <TextView
+            android:id="@+id/dial_tab"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="@dimen/gap_65_dp"
+            android:layout_toLeftOf="@id/contact_tab"
+            android:background="@drawable/navigation_tab_bar_selector"
+            android:focusable="true"
+            android:gravity="center"
+            android:text="@string/dial"
+            android:textColor="@color/navigation_text_selector"
+            android:textSize="@dimen/text_size_20"/>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginBottom="@dimen/gap_50_dp"
+        android:background="@color/gray1"/>
+
+    <FrameLayout
+        android:id="@+id/tab_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></FrameLayout>
+</LinearLayout>

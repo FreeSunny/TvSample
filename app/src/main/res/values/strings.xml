@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TV</string>
+    <string name="my">我的</string>
+    <string name="contact">好友</string>
+    <string name="dial">拨号</string>
+    <string name="setting">设置</string>
+    <string name="login">登录</string>
+    <string name="itv_name">样例程序</string>
+    <string name="empty"></string>
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@drawable/global_bg"
+              android:gravity="center"
+              android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:drawableLeft="@drawable/tv_logo"
+        android:drawablePadding="@dimen/gap_8_dp"
+        android:gravity="left"
+        android:text="@string/itv_name"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_24"/>
+
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/gap_40_dp"
+        android:background="@drawable/login_btn_selector"
+        android:focusable="true"
+        android:gravity="center"
+        android:nextFocusDown="@+id/input_uid"
+        android:nextFocusUp="@+id/input_pwd"
+        android:padding="@dimen/gap_10_dp"
+        android:text="@string/login"
+        android:textColor="@color/white"
+        android:textSize="22sp"/>
+
+
+</LinearLayout>

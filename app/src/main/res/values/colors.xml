@@ -1,0 +1,51 @@
+<resources>
+    <color name="transparent">#00000000</color>
+    <color name="background_gradient_start">#000000</color>
+    <color name="background_gradient_end">#DDDDDD</color>
+    <color name="fastlane_background">#0096a6</color>
+    <color name="search_opaque">#ffaa3f</color>
+    <color name="selected_background">#ffaa3f</color>
+    <color name="detail_background">#0096a6</color>
+    <color name="soft_opaque">#30000000</color>
+    <color name="img_soft_opaque">#30FF0000</color>
+    <color name="img_full_opaque">#00000000</color>
+    <color name="black_opaque">#AA000000</color>
+    <color name="black">#59000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="orange_transparent">#AAFADCA7</color>
+    <color name="orange">#FADCA7</color>
+    <color name="yellow">#EEFF41</color>
+    <color name="default_background">#3d3d3d</color>
+    <color name="color_242424">#242424</color>
+
+    <color name="help_color">#ff999999</color>
+    <color name="color_0a0a0a">#0a0a0a</color>
+    <color name="color_777777">#777777</color>
+    <color name="black_50_transparent">#80000000</color>
+    <color name="color_global_bg_n">#242424</color>
+
+    <color name="color_02d3a9">#02D3A9</color>
+
+    <color name="color_15d1a5">#15d1a5</color>
+    <color name="color_fa4b4b">#fa4b4b</color>
+    <color name="color_f44242">#f44242</color>
+
+    <color name="color_grey_666666">#666666</color>
+    <color name="gray1">#666666</color>
+    <color name="black_60_transparent">#a0000000</color>
+    <color name="list_divider">#ebebeb</color>
+    <color name="color_ff333333">#ff333333</color>
+    <color name="color_ffd9d9d9">#ffd9d9d9</color>
+    <color name="gray9">#999999</color>
+    <color name="color_999999">#999999</color>
+    <color name="color_dddddd">#dddddd</color>
+
+    <color name="color_2e2e2f">#2e2e2f</color>
+    <color name="color_090708">#090708</color>
+    <color name="color_31af6f">#31af6f</color>
+    <color name="white_30_transparent">#4CFFFFFF</color>
+    <color name="white_35_transparent">#59FFFFFF</color>
+    <color name="white_60_transparent">#99FFFFFF</color>
+
+
+</resources>
